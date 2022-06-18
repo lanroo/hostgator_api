@@ -1,0 +1,14 @@
+.container-header {
+    width: 100%;
+    background: #FFFFFF;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+@media (max-width: 1025px) {
+    .container-header {
+        padding-left: 5px;
+    }
+}
