@@ -1,0 +1,143 @@
+.container-topo {
+    background: #1D5297;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+
+.container-mains-text {
+    min-width: 700px;
+    max-width: 700px;
+}
+
+.title-1 {
+    text-align: center;
+    font: 16px/27px MontserratSemiBold;
+    color: #B9D0EF;
+    letter-spacing: 1.6px;
+    opacity: 1;    
+}
+
+.title-2 {
+    text-align: center;
+    font: Bold 30px/45px MontserratRegular;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 40px;
+}
+
+.main-check {
+    margin-right: 5px;
+}
+
+.text-1 {
+    text-align: center;
+    font: 16px/22px MontserratRegular;
+    letter-spacing: 0;
+    color: #B9D0EF;
+    opacity: 1;
+}
+
+.container-text-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 0 0 0 ;
+}
+
+.text-2 {
+    text-align: center;
+    font: 16px/22px MontserratRegular;
+    letter-spacing: 0;
+    color: #B9D0EF;
+    opacity: 1;
+}
+
+.text-2:nth-child(2n) {
+    padding-left: 10px;
+}
+
+.text-3 {
+    text-align: center;
+    font: 14px/26px MontserratRegular;
+    letter-spacing: 0;
+    color: #1D5297;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.container-planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    overflow-x: hidden;
+}
+
+.confiraCondicoes {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font: 12px/12px MontserratRegular;
+    letter-spacing: 0;
+    color: #4480C5;
+    opacity: 0.7;
+    margin-bottom: 25px;
+    margin-left: 45%;
+}
+
+.container-arrowDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.container-arrowDown img{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-arrowDown img:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 1025px) {
+    .container-mains-imgs {
+        display: none;
+    }
+
+    .container-mains-text {
+        min-width: 0;
+        width: 95%;
+    }
+
+    .title-2  {
+        font: Bold 24px/32px MontserratRegular;
+    }  
+
+    .confiraCondicoes {
+        margin-left: 0;
+    }
+
+    .text-1 {
+        text-align: center;
+        padding: 0 50px 0 50px;
+    }
+
+    .container-planos {
+        justify-content: flex-start;
+    }
+
+    @media (max-width: 350px) {
+        .text-1 {
+            text-align: center;
+            padding: 0 25px 0 25px;
+        }
+    }
+    
+}

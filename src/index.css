@@ -8,6 +8,57 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: MontSerrat, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+	font-family: MontSerratSemiBold;
+	src: url('./assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: MontSerratBold;
+	src: url('./assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+	font-family: MontSerratRegular;
+	src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: MontSerratMedium;
+	src: url('./assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+	font-family: MontSerratBlack;
+	src: url('./assets/fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+	font-family: MontSerratLight;
+	src: url('./assets/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+	font-family: MontSerratThin;
+	src: url('./assets/fonts/Montserrat-Thin.ttf');
+}
+
+* {
+    text-rendering: optimizeLegibility;
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: MontSerratRegular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	min-height: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	background: #F1F6FB;
 }
