@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 
-import { Button } from "bootstrap";
+import RightArrow from "../../assets/button-right.svg";
+import LeftArrow from "../../assets/button-left.svg";
 
-import "../carousel.css";
+
+import "./carousel.css";
 export default function Carousel(props) {
     const [itemSelected, setItemSelected] = useState(-1);
-
-    const Button = value => {
-        let temp `itemSelected${value}`
+    function handleArrow(value) {
+        let temp = itemSelected + value;
         if (temp > -2 && temp < 2) {
             setItemSelected(itemSelected + value);
             scrollElement(itemSelected + value);
         }
-    };
+    }
 
     function scrollElement(value) {
         if (value === 0) {
@@ -32,11 +33,11 @@ export default function Carousel(props) {
 
     return (
         <>
-            <div className="Button" onClick={() => handleArrow(-1)}>
+            <div className="arrow-left" onClick={() => handleArrow(-1)}>
                 <img src={LeftArrow} alt="leftArrow" />  
                 </div>
             <div className="container-carousel">{props.children}</div>
-            <div className="Button" onClick={() => handleArrow(1)}>
+            <div className="arrow-right" onClick={() => handleArrow(1)}>
                 <img src={RightArrow} alt="leftArrow" />
             </div>
         </>

@@ -16,7 +16,7 @@
         padding: 0 15px 0 15px;
     }
     
-    .Button {
+    .arrow-left {
         position: absolute;
         left: 10px;
         display: flex;
@@ -24,6 +24,13 @@
         z-index: 1;
     }
   
+    .arrow-right {
+        position: absolute;
+        right: 10px;
+        display: flex;
+        cursor: pointer;
+        z-index: 1;
+    }
 
     @media (max-width: 400px) {
         .container-carousel {

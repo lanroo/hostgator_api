@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../../assets/hostgator-logo,svg";
+import Logo from "../../assets/hostgator-logo.svg";
 
-import "./header.css";
+import "../header/header.css";
 export default function Header() {
     return (
         <div className="container-header">

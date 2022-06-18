@@ -90,19 +90,19 @@
     margin-left: 45%;
 }
 
-.container-arrowDown {
+.container-button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -25px;
 }
 
-.container-arrowDown img{
+.container-button img{
     cursor: pointer;
     transition: 0.2s;
 }
 
-.container-arrowDown img:hover{
+.container-button img:hover{
     transform: scale(1.1);
 }
 
