@@ -1,0 +1,39 @@
+.container-carousel {
+    display: none;
+}
+.arrow-left {
+    display: none;
+}
+
+.arrow-right {
+    display: none;
+}
+@media (max-width: 1025px) {
+    .container-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px 0 15px;
+    }
+    
+    .Button {
+        position: absolute;
+        left: 10px;
+        display: flex;
+        cursor: pointer;
+        z-index: 1;
+    }
+  
+
+    @media (max-width: 400px) {
+        .container-carousel {
+            padding: 0 5px 0 5px;
+        }
+
+        @media (max-width: 350px) {
+            .container-carousel {
+                padding: 0;
+            }
+        }
+    }
+    }

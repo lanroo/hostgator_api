@@ -1,0 +1,51 @@
+.container-chooseTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.chooseTimes {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px #4480C570;
+    border: 1px solid #4480C5;
+    border-radius: 21px;
+    width: 375px;
+    max-width: 95%;
+}
+
+.chooseTime {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 21px;
+    font: 16px/23px MontserratRegular;
+    color: #16437E;
+    transition: 0.2s;
+}
+
+.selected {
+    background: #4480C5;
+    font-family: MontserratBold;
+    color: #FFFFFF;
+}
+
+.radio-img {
+    padding-right: 5px;
+}
+
+
+@media (max-width: 1025px) {
+    .chooseTime {
+        font: 14px/21px MontserratRegular;
+    }
+    @media (max-width: 350px) {
+        .chooseTime {
+            font: 9px/21px MontserratRegular;
+        }
+    }
+    
+}

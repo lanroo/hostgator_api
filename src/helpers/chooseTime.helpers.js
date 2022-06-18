@@ -1,0 +1,1 @@
+export const timeMenus = ['3 Anos', '1 ano', '1 mês']

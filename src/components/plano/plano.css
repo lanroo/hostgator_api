@@ -1,0 +1,171 @@
+.container-plano {
+    background: #ffffff;
+    width: 350px;
+    max-width: 95%;
+    margin: 25px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.container-plano-selected-topo {
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    opacity: 1;
+    background: #ff6a17;
+    height: 10px;
+}
+
+.container-plano-selected-bottom {
+    background: #ff6a17;
+    height: 5px;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.container-img-plano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dfecff;
+    padding: 25px 0 25px 0;
+}
+
+.container-img-plano img {
+    padding: 10px 0 10px 0;
+}
+
+.text-1-plano {
+    font: 26px/26px MontserratBold;
+    color: #1d5297;
+}
+
+.container-price-plano {
+    padding: 25px;
+    border-bottom: 1px solid #dfecff;
+}
+
+.container-price-text {
+    display: flex;
+    justify-content: center;
+}
+
+.price-1 {
+    text-decoration: line-through;
+    font: 14px/19px MontserratRegular;
+    color: #333333;
+}
+
+.price-2 {
+    font: 14px/19px MontserratBold;
+    color: #333333;
+    margin-left: 5px;
+}
+
+.text-2-plano {
+    text-align: center;
+    font: 13px/19px MontserratRegular;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+.price-3 {
+    margin-top: 5px;
+    text-align: center;
+    font: 20px/24px MontserratRegular;
+    color: #1d5297;
+}
+
+.price-3-bold {
+    font: 35px/24px MontserratBold;
+    color: #1d5297;
+}
+
+.container-button-plano {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-button-plano button {
+    background: #4480c5 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    outline: none;
+    border: none;
+    font: 22px/27px MontserratBold;
+    letter-spacing: 0;
+    color: #ffffff;
+    opacity: 1;
+    width: 279px;
+    height: 52px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-button-plano button:hover {
+    transform: scale(1.1);
+}
+
+.container-dominio-plano {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15px/20px MontserratBold;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+.container-economize-plano {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 14px/18px MontserratRegular;
+    color: #1d5297;
+    opacity: 1;
+}
+
+.desconto-40off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #51c99c;
+    border-radius: 24px;
+    font: 14px/18px MontserratBold;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 80px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.container-info-plano {
+    padding: 25px;
+    border-bottom: 1px solid #dfecff;
+    text-align: left;
+    font: 16px/32px MontserratRegular;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+.info-plano-bold {
+    font: 16px/32px MontserratBold;
+}
+
+.info-plano-sublinhado-dash {
+    border-bottom: 1px dashed #9eb8dc;
+}
+
+.info-plano-sublinhado {
+    border-bottom: 1px solid #333333;
+}
+
+@media (max-width: 1025px) {
+    .container-plano {
+        width: 95%;
+    }
+}

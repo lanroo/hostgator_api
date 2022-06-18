@@ -1,0 +1,1 @@
+export const planoMenus = ["Plano P", "Plano M", "Plano Turbo"]
