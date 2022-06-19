@@ -1,14 +1,14 @@
-import { createStore, combineReducers } from "redux";
+import { configureStore } from '@reduxjs/toolkit'
 
-import state from "./state";
-import offer from "./offer";
+import todosReducer from './features/todos/todosSlice'
+import filtersReducer from './features/filters/filtersSlice'
 
-const reducers = combineReducers({
-    state,
-    offer,
-});
+const store = configureStore({
+  reducer: {
+    // Define a top-level state field named `todos`, handled by `todosReducer`
+    todos: todosReducer,
+    filters: filtersReducer
+  }
+})
 
-const Store = createStore(reducers);
-
-export default Store;
-
+export default store

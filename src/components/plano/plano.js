@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
-import PlanoP from "../../assets/plano-p.svg";
-import PlanoM from "../../assets/plano-m.svg";
-import PlanoTurbo from "../../assets/plano-turbo.svg";
+import product_5 from "../../assets/plano-p.svg";
+import product_6 from "../../assets/plano-m.svg";
+import product_7 from "../../assets/plano-turbo.svg";
 import Info from "../../assets/info.svg";
 
 import "./plano.css";
@@ -42,13 +42,25 @@ export default function Plano(props) {
     const setOfferPlan = () => {
         switch (props.plano) {
             case "Plano P":
-                setPlan(offer.planoP);
+                setPlan(offer.product_5);
                 break;
             case "Plano M":
-                setPlan(offer.planoM);
+                setPlan(offer.product_6);
+                break;
+            case "Plano Business":
+                setPlan(offer.product_7);
+                break;
+            case "Plano Empreendedor":
+                setPlan(offer.product_329);
+                break;
+            case "Plano Negócios":
+                setPlan(offer.product_323);
                 break;
             case "Plano Turbo":
-                setPlan(offer.planoTurbo);
+                setPlan(offer.product_335);
+                break;
+            case "Presença Digital":
+                setPlan(offer.product_341);
                 break;
             default:
                 break;
@@ -58,26 +70,29 @@ export default function Plano(props) {
     const renderPlan = () => {
         switch (props.plano) {
             case "Plano P":
-                return PlanoP;
+                return product_5;
             case "Plano M":
-                return PlanoM;
+                return product_6;
+            case "Plano Business":
+                return product_7;
+            case "Plano Empreendedor":
+                return product_329;
+            case "Plano Negócios":
+                return product_332;
             case "Plano Turbo":
-                return PlanoTurbo;
+                return product_335;
+            case "Presença Digital":
+                return product_341;
             default:
-                return PlanoP;
+                return product_5;
         }
     };
 
     const setOfferTime = () => {
         switch (selectedTime) {
-            case "3 Anos":
-                return plan.cycle.triennially;
-            case "1 ano":
-                return plan.cycle.annually;
             case "1 mês":
-                return plan.cycle.monthly;
-            default:
-                return plan.cycle.monthly;
+                console.log("entrou no 1 mes")
+                return shared.products.product_5.cycle.quarterly;
         }
     };
 
