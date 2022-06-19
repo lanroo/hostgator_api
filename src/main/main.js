@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import {useDispatch } from "react-redux";
 
 import Header from "../components/header/header";
-
 import ChooseTime from "../components/chooseTime/chooseTime";
 
 import Plano from "../../src/components/plano/plano";
-import { Carousel } from "../../src/components/carousel/carousel";
+import Carousel from "../../src/components/carousel/carousel";
 
-import { planoMenus } from "../../src/helpers/plano.helpers";
-import { setOffers } from "../../actions/main.actions";
+
+import { planoMenus } from "../helpers/plano.helpers";
+import { setOffers } from "../actions/main.actions";
 import api from "../../src/services/api";
 
 import Group from "../assets/group.svg";

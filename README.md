@@ -1,8 +1,10 @@
+
 # Requirements and Install
+
 
 Commands needed to install packages to run your project app
 
-- React-Redux with npm
+ - **React-Redux with npm**
 
 `npm install` 
 
@@ -12,7 +14,7 @@ Commands needed to install packages to run your project app
 
 <br>
 
-- Axios
+- **Axios**
 
 `npm install axios` or `yarn add axios`
 
@@ -22,11 +24,11 @@ Commands needed to install packages to run your project app
 
 <br>
 
-- Jest-DOM npm 
+- **Jest-DOM npm** 
 
 `npm install --save-dev jest-environment-jsdom`
 
-- Jest-DOM yarn
+- **Jest-DOM yarn**
 
 `yarn add --dev jest-environment-jsdom` 
 
@@ -106,3 +108,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
