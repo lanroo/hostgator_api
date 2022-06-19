@@ -18,8 +18,9 @@ Commands needed to install packages to run your project app
 
 `bower install axios`
 
-> #### Official AXIOS Documentation to [learn more](https://axios-http.com/docs/intro) 
+> ### Official AXIOS Documentation to [learn more](https://axios-http.com/docs/intro) 
 
+<br>
 
 - Jest-DOM npm 
 
