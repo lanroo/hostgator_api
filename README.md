@@ -1,3 +1,40 @@
+# Requirements and Install
+
+Commands needed to install packages to run your project app
+
+- React-Redux with npm
+
+`npm install` 
+
+`react-redux`
+
+> ### Official REACT-REDUX Documentation to [learn more](https://react-redux.js.org/introduction/getting-started) 
+
+<br>
+
+- Axios
+
+`npm install axios` or `yarn add axios`
+
+`bower install axios`
+
+> #### Official AXIOS Documentation to [learn more](https://axios-http.com/docs/intro) 
+
+
+- Jest-DOM npm 
+
+`npm install --save-dev jest-environment-jsdom`
+
+- Jest-DOM yarn
+
+`yarn add --dev jest-environment-jsdom` 
+
+
+> ### Official JEST Documentation to [learn more](https://jestjs.io/pt-BR/docs/getting-started) 
+
+
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
