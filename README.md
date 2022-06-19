@@ -8,7 +8,7 @@ Commands needed to install packages to run your project app
 
 `react-redux`
 
-> ### Official REACT-REDUX Documentation to [learn more](https://react-redux.js.org/introduction/getting-started) 
+> #### Official REACT-REDUX Documentation to [learn more](https://react-redux.js.org/introduction/getting-started) 
 
 <br>
 
